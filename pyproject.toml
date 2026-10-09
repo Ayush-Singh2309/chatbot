@@ -1,0 +1,28 @@
+[project]
+name = "chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ayush-Singh2309", email = "103182175+Ayush-Singh2309@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.4",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.9",
+    "langchain-google-genai>=4.4.0",
+    "langchain-openrouter>=0.2.9",
+    "langgraph>=1.2.14",
+    "langgraph-checkpoint-sqlite>=3.1.1",
+    "langsmith>=0.14.5",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+chatbot = "chatbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
