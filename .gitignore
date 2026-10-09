@@ -11,3 +11,6 @@ wheels/
 
 .env
 chatbot.db
+.python-version
+chatbot.db-shm
+chatbot.db-wal
