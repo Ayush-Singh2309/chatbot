@@ -10,7 +10,14 @@ wheels/
 .venv
 
 .env
-chatbot.db
+
+# Python environment configuration
 .python-version
-chatbot.db-shm
-chatbot.db-wal
+
+# SQLite database files and runtime logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
